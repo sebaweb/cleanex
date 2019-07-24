@@ -10,10 +10,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background: rgba(131,209,228,1);
+        background: -moz-linear-gradient(top, rgba(131,209,228,1) 0%, rgba(238,245,247,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(131,209,228,1)), color-stop(100%, rgba(238,245,247,1)));
+        background: -webkit-linear-gradient(top, rgba(131,209,228,1) 0%, rgba(238,245,247,1) 100%);
+        background: -o-linear-gradient(top, rgba(131,209,228,1) 0%, rgba(238,245,247,1) 100%);
+        background: -ms-linear-gradient(top, rgba(131,209,228,1) 0%, rgba(238,245,247,1) 100%);
+        background: linear-gradient(to bottom, rgba(131,209,228,1) 0%, rgba(238,245,247,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1e4', endColorstr='#eef5f7', GradientType=0 );
       }
       .logo {
         text-align: center;
         width: 100%;
+        box-shadow: 0 0 5px 0px #7d7d7d3b;
       }
 
       @media only screen and (min-width: 800px) {
