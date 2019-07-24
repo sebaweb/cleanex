@@ -24,6 +24,31 @@
         width: 100%;
         box-shadow: 0 0 5px 0px #7d7d7d3b;
       }
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: white;
+        box-shadow: 0 0 10px 0px #7d7d7d91;
+        text-align: center;
+      }
+      .footerContent {
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+      }
+      .footerContent a:first-child {
+        border-right: 1px #3aa2ca solid;
+      }
+      .footerContent > * {
+        display: flex;
+        flex: 1;
+      }
+      .footerContent a img {
+        margin: auto;
+      }
 
       @media only screen and (min-width: 800px) {
           .logo {
@@ -35,6 +60,16 @@
   <body>
     <div class="content">
       <img class="logo" src="logosmall.png">
+    </div>
+    <div class="footer">
+      <div class="footerContent">
+        <a href="https://www.instagram.com/cleanex_chile/" target="_blank">
+          <img class="social" src="instagram.svg">
+        </a>
+        <a href="https://www.facebook.com/www.cleanex.cl/" target="_blank">
+          <img class="social" src="facebook.svg">
+        </a>
+      </div>
     </div>
   </body>
 </html>
