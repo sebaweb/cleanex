@@ -38,6 +38,7 @@
         padding: 15px;
         display: flex;
         flex-direction: row;
+        height: 100%;
       }
       .footerContent a:first-child {
         border-right: 1px #3aa2ca solid;
@@ -45,14 +46,21 @@
       .footerContent > * {
         display: flex;
         flex: 1;
+        height: 80%;
       }
       .footerContent a img {
         margin: auto;
+        height: 100%;
       }
 
       @media only screen and (min-width: 800px) {
           .logo {
             width: 700px;
+          }
+        }
+        @media (orientation:portrait) {
+          .footer {
+            height: 150;
           }
         }
     </style>
